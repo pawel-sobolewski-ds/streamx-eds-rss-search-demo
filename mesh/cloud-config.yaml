@@ -1,31 +1,6 @@
 ---
-domains: []
-global:
-  services:
-    ingestion:
-      rest-ingestion:
-        replicas: 1
-    processing:
-      indexable-resources-sql-transformer:
-        stateful: true
-      rendering-engine:
-        stateful: true
-      resource-downloader:
-        stateful: true
-    edge:
-      opensearch-sink:
-        replicas: 1
-        stateful: true
-      web-server-sink:
-        replicas: 1
-        stateful: true
-  properties: {}
+global: {}
 clusters:
-  eu-central-waw-edge:
+  eu-west-gra-edge:
     enabled: true
-    overlay:
-      properties: {}
-  eu-west-par-processing:
-    enabled: true
-    overlay:
-      properties: {}
+    overlay: {}
