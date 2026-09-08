@@ -4,3 +4,6 @@ clusters:
   eu-west-gra-edge:
     enabled: true
     overlay: {}
+  eu-west-gra-processing:
+    enabled: true
+    overlay: {}
