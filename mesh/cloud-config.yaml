@@ -2,7 +2,7 @@
 global: {}
 clusters:
   eu-west-gra-edge:
-    enabled: false
+    enabled: true
     overlay: {}
   eu-west-gra-processing:
     enabled: true
